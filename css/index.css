@@ -81,7 +81,6 @@ p {
 
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
     padding-bottom: 20px;  
 }
 
@@ -143,4 +142,124 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.navRow{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px 40px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    align-items: flex-end;
+    color:black;
+}
+
+.navRow a{
+    text-decoration: none;
+    color: black;
+}
+
+.navRow a:hover{
+    color: gray;
+}
+
+.top-content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: auto;
+    margin: 20px;
+}
+
+.text-container{
+    margin: auto;
+    padding: 0px 0px 0px 0px;
+}
+
+.boxes .box:nth-child(1){
+    background-color: teal;
+}
+
+.boxes .box:nth-child(2){
+    background-color: gold;
+}
+
+.boxes .box:nth-child(3){
+    background-color: cadetblue;
+}
+
+.boxes .box:nth-child(4){
+    background-color: coral;
+}
+
+.boxes .box:nth-child(5){
+    background-color: crimson;
+}
+
+.boxes .box:nth-child(6){
+    background-color: forestgreen;
+}
+
+.boxes .box:nth-child(7){
+    background-color: darkorchid;
+}
+
+.boxes .box:nth-child(8){
+    background-color: hotpink;
+}
+
+.boxes .box:nth-child(9){
+    background-color: indigo;
+}
+
+.boxes .box:nth-child(10){
+    background-color: dodgerblue;
+}
+
+.learnMoreButton{
+    font-size: 14px;
+	background-color: white;
+	border-radius: 8px;
+	padding: 10px 30px;
+	border: black solid 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+	text-decoration: none;
+}
+
+.aboutSection{
+    border-bottom: .5px;
+    border-bottom-color: black;
+    border-bottom-style: dashed;
+    padding: 20px 0px 20px 0px;
+}
+
+.aboutBoxes{
+    width: 48%;
+    border-bottom: .5px;
+    border-bottom-color: black;
+    border-bottom-style: dashed;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.aboutRows{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0px 0px 0px;
+}
+
+.aboutBoxes h2{
+    padding: 10px 0px 0px 0px;
+}
+
+.aboutTogether{
+    padding: 40px 0px;
 }
